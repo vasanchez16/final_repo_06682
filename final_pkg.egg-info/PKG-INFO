@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: final-pkg
+Version: 0.0.1
+Summary: bibtex utilities
+Home-page: UNKNOWN
+Maintainer: Victor Alejandro Sanchez
+Maintainer-email: vsanchez@andrew.cmu.edu
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+Bibtex utilities for final project
+

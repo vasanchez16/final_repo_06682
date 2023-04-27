@@ -1,4 +1,4 @@
-name: formatting jobs
+name: formatting and testing jobs
 on: push
 
 jobs:

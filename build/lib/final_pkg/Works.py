@@ -77,7 +77,9 @@ class Works:
 
         ris64 = base64.b64encode(ris.encode('utf-8')).decode('utf8')
         uri = (
-            f'<pre>{ris}<pre><br><a href="data:text/plain;base64,{ris64}" download="ris">Download RIS</a>'
+            f'<pre>{ris}<pre><br><a href="data:text/plain;base64'
+            +
+            f',{ris64}" download="ris">Download RIS</a>'
               )
         display(HTML(uri))
         return ris

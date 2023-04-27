@@ -1,8 +1,10 @@
 LICENSE
 README.md
 setup.py
+final_pkg/Works.py
 final_pkg/__init__.py
-final_pkg/works.py
+final_pkg/test_bibtex.py
+final_pkg/test_ris.py
 final_pkg.egg-info/PKG-INFO
 final_pkg.egg-info/SOURCES.txt
 final_pkg.egg-info/dependency_links.txt

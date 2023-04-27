@@ -1,0 +1,18 @@
+"This file will be used to test the RIS function and output."
+from final_pkg import Works
+EX_RIS = """TY  - JOUR
+AU  - John R. Kitchin
+PY  - 2015
+TI  - Examples of Effective Data Sharing in Scientific Publishing
+JO  - ACS Catalysis
+VL  - 5
+IS  - 6
+SP  - 3894
+EP  - 3899
+DO  - https://doi.org/10.1021/acscatal.5b00538
+ER  -"""
+
+def test_ris():
+    "Function for the assert test."
+    works_ex = Works("https://doi.org/10.1021/acscatal.5b00538")
+    assert EX_RIS == works_ex.ris

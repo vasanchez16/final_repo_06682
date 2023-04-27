@@ -1,1 +1,2 @@
 # final_repo_06682
+[![formatting jobs](https://github.com/vasanchez16/final_repo_06682/actions/workflows/my-workflow.yaml/badge.svg)](https://github.com/vasanchez16/final_repo_06682/actions/workflows/my-workflow.yaml)

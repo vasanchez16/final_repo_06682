@@ -11,7 +11,7 @@ jobs:
           pip install black
           black --check .
         
-  Checking_pylint
+  Checking_pylint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
